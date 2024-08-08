@@ -37,10 +37,6 @@ Clone the Repository:
 =====================
 git clone https://github.com/Monisha-Vijayakumar/React-Expo-Heatmap.git
 
-Navigate to the code directory:
-===============================
-cd react-expo-heatmap
-
 Install the packages:
 =====================
 npm install
