@@ -1,0 +1,35 @@
+{
+    "name": "react-expo-heatmap-app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "start": "npx webpack-dev-server --mode development --open --hot",
+        "build": "npx webpack --mode production"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "Expo Heatmap Visualization",
+    "devDependencies": {
+        "@babel/cli": "^7.24.8",
+        "@babel/core": "^7.25.2",
+        "@babel/preset-env": "^7.25.3",
+        "@babel/preset-react": "^7.24.7",
+        "@testing-library/jest-dom": "^6.4.8",
+        "@testing-library/react": "^16.0.0",
+        "@testing-library/user-event": "^14.5.2",
+        "babel-loader": "^9.1.3",
+        "css-loader": "^7.1.2",
+        "style-loader": "^4.0.0",
+        "webpack": "^5.93.0",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^5.0.4"
+    },
+    "dependencies": {
+        "leaflet": "^1.9.4",
+        "leaflet.heat": "^0.2.0",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+    }
+}
