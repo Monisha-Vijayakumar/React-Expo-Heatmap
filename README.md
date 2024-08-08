@@ -46,3 +46,13 @@ Run the application:
 npm start
 
 The application will open in http://localhost:8080/
+
+**Folder structure**:
+=======================
+Under src,
+
+Components - Has React components.
+Styles - Has CSS style files.
+tests - For Unit test cases.
+
+Payload is stored as Payload.json in the src folder.
